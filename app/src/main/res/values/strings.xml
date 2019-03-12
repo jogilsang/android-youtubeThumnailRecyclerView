@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!--<string name="youtube_key">AIzaSyDsUl4frCgwbmG7xfviT7prbIVvJC51EVs</string>-->
+    <string name="youtube_key">AIzaSyCxg5_n9_Xz4rs8hwLyLvgmcwHvuApnnN4</string>
+
+</resources>

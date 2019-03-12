@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/tab_2_layout_searchedit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="52dp"-->
+            <!--android:background="@color/colorThird"-->
+            <!--android:layout_alignParentTop="true"-->
+
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tab_2_title"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="공지사항"-->
+                <!--android:textSize="36sp"-->
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/youtubeCardView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:clickable="true"-->
+            <!--android:elevation="8dp"-->
+            <!--android:foreground="?attr/selectableItemBackground"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--&gt;-->
+        <!---->
+        <!--</android.support.v7.widget.CardView>-->
+        <!--<com.google.android.youtube.player.YouTubePlayerView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:visibility="visible"-->
+            <!--android:id="@+id/youtubeView"-->
+            <!--/>-->
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfdfdfdfdfdfdfdfdfdf"
+            />
+
+        <!-- Main Restaurants recycler -->
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/test"
+            android:id="@+id/main_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/view_empty"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:orientation="vertical"-->
+            <!--android:visibility="gone"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--style="@style/apptheme_pizzaguy"-->
+                <!--android:src="@drawable/pizza_monster" />-->
+
+            <!--<TextView-->
+                <!--style="@style/apptheme_body1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/message_no_results"-->
+                <!--android:textColor="@color/greyDisabled" />-->
+
+        <!--</LinearLayout>-->
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
