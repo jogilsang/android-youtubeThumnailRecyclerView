@@ -55,6 +55,10 @@ The core code is shown below.
             android:adjustViewBounds="true"
             />
 ```
+
+Declare the variable urlYoutube above to put the YouTube ID that will be shown in the thumbnail and thumbnail views.  
+The YouTube ID is the _P6_9uwox90 value at www.youtube.com/watch?v=_P6_9uwox90 at the end of the YouTube address.  
+You can change the variable name as you wish  
 ```java
 public class MainActivity extends BaseActivity implements YouTubeThumbnailView.OnInitializedListener {
 
@@ -82,6 +86,7 @@ public class MainActivity extends BaseActivity implements YouTubeThumbnailView.O
 
 }
 ```
+If you implement the interface, you must implement the following onInitializationSuccess and onInitializationFailure methods.  
 ```java
         @Override
         public void onInitializationSuccess(YouTubeThumbnailView youTubeThumbnailView, final YouTubeThumbnailLoader youTubeThumbnailLoader) {
@@ -118,6 +123,8 @@ public class MainActivity extends BaseActivity implements YouTubeThumbnailView.O
         }
 
 ```
+The onInitializationSuccess and onInitializationFailure methods above work by initializing the thumbnailView below.  
+The code below works if the YouTube ID is valid. To be exact, it works if the String is not empty.  
 ```java
         public void setYoutubeThumnail(YouTubeThumbnailView thumbnailView, final String urlYouTube){
 
@@ -130,6 +137,9 @@ public class MainActivity extends BaseActivity implements YouTubeThumbnailView.O
             }
         }
 ```
+
+Click the thumnailView to set up the listener so that the video appears.  
+Full screen becomes full screen.  
 ```java
 public void setListener() {
             thumbnailView.setOnClickListener(new View.OnClickListener() {
@@ -164,14 +174,13 @@ public void setListener() {
 ## Contribute
 If you want to contribute to this project, it would be nice to add the following:
 - UI / UX
-- Screen Orientation function
 
 ## Credits
 @jogilsang
 
 ## Reference
-- Android-Video Intent and Video Paths, Video Playback Total Cleanup  
-https://blog.naver.com/jogilsang/221694414001  
+- if you want make YoutubeThumnailView app ???  
+https://blog.naver.com/jogilsang/221511604329  
 
 ## Cotact
 mail :
