@@ -15,7 +15,7 @@ This project is a project composed of recyclerview using YouTube API and thumbna
 - Windows 10 10.0-  
 
 ## Screenshots
-"![](/이미지 5.png)"
+"![](/image.png)"
 
 ## Installation
 If you use the GitHub website
